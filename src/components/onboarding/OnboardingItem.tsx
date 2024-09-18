@@ -4,7 +4,7 @@ import React from "react";
 const { width, height, fontScale } = Dimensions.get("window");
 
 const OnboardingItem = ({ item }: { item: any }) => {
-  console.log(item);
+  // console.log(item);
   return (
     <View style={styles.container} key={item.id}>
       <View style={styles.textContainer}>
